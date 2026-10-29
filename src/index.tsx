@@ -2,6 +2,7 @@ import { Hono } from 'hono'
 import { cors } from 'hono/cors'
 
 type Bindings = {
+  ASSETS: { fetch: (request: Request) => Promise<Response> }
   GITHUB_TOKEN: string
   GITHUB_OWNER: string
   GITHUB_REPO:  string
@@ -9,6 +10,7 @@ type Bindings = {
 
 const app = new Hono<{ Bindings: Bindings }>()
 
+app.get('/static/*', (c) => c.env.ASSETS.fetch(c.req.raw))
 app.use('/api/*', cors())
 
 // ─────────────────────────────────────────────────────────────
