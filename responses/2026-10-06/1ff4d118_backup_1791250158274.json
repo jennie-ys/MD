@@ -1,0 +1,1020 @@
+{
+  "participant_id": "1ff4d1185266b1f942fae6d40b573e61",
+  "backed_up_at": "2026-10-06T01:29:18.274Z",
+  "session_raw": {
+    "__exp_pid__": "1ff4d1185266b1f942fae6d40b573e61",
+    "__exp_group__": "T",
+    "__exp_step__": "step-ps-3",
+    "__exp_task_answers__": [
+      {
+        "initial": "기저세포암",
+        "correctCategory": "광선각화증",
+        "aiCategory": "기저세포암",
+        "aiCorrect": false,
+        "imageUrl": "/static/task-images/%EA%B4%91%EC%84%A0%EA%B0%81%ED%99%94%EC%A6%9D(AK)/ISIC_1076265.jpg",
+        "final": "기저세포암",
+        "phase_durations_ms": {
+          "initial_ms": 9431,
+          "ai_ms": 5209,
+          "final_ms": 3896
+        }
+      },
+      {
+        "initial": "피부섬유종",
+        "correctCategory": "피부섬유종",
+        "aiCategory": "피부섬유종",
+        "aiCorrect": true,
+        "imageUrl": "/static/task-images/%ED%94%BC%EB%B6%80%EC%84%AC%EC%9C%A0%EC%A2%85(DF)/ISIC_5844410.jpg",
+        "final": "피부섬유종",
+        "phase_durations_ms": {
+          "initial_ms": 3674,
+          "ai_ms": 3560,
+          "final_ms": 3665
+        }
+      },
+      {
+        "initial": "흑색종",
+        "correctCategory": "흑색종",
+        "aiCategory": "기저세포암",
+        "aiCorrect": false,
+        "imageUrl": "/static/task-images/%ED%9D%91%EC%83%89%EC%A2%85(MEL)/ISIC_1019384.jpg",
+        "final": "흑색종",
+        "phase_durations_ms": {
+          "initial_ms": 5562,
+          "ai_ms": 8960,
+          "final_ms": 3411
+        }
+      },
+      {
+        "initial": "피부섬유종",
+        "correctCategory": "광선각화증",
+        "aiCategory": "광선각화증",
+        "aiCorrect": true,
+        "imageUrl": "/static/task-images/%EA%B4%91%EC%84%A0%EA%B0%81%ED%99%94%EC%A6%9D(AK)/ISIC_1099402.jpg",
+        "final": "광선각화증",
+        "phase_durations_ms": {
+          "initial_ms": 5730,
+          "ai_ms": 3424,
+          "final_ms": 3353
+        }
+      },
+      {
+        "initial": "피부섬유종",
+        "correctCategory": "기저세포암",
+        "aiCategory": "광선각화증",
+        "aiCorrect": false,
+        "imageUrl": "/static/task-images/%EA%B8%B0%EC%A0%80%EC%84%B8%ED%8F%AC%EC%95%94(BCC)/ISIC_1230479.jpg",
+        "final": "광선각화증",
+        "phase_durations_ms": {
+          "initial_ms": 4010,
+          "ai_ms": 4043,
+          "final_ms": 3392
+        }
+      },
+      {
+        "initial": "혈관 병변",
+        "correctCategory": "피부섬유종",
+        "aiCategory": "기저세포암",
+        "aiCorrect": false,
+        "imageUrl": "/static/task-images/%ED%94%BC%EB%B6%80%EC%84%AC%EC%9C%A0%EC%A2%85(DF)/ISIC_6558326.jpg",
+        "final": "혈관 병변",
+        "phase_durations_ms": {
+          "initial_ms": 6305,
+          "ai_ms": 5837,
+          "final_ms": 4745
+        }
+      },
+      {
+        "initial": "기저세포암",
+        "correctCategory": "기저세포암",
+        "aiCategory": "기저세포암",
+        "aiCorrect": true,
+        "imageUrl": "/static/task-images/%EA%B8%B0%EC%A0%80%EC%84%B8%ED%8F%AC%EC%95%94(BCC)/ISIC_1186941.jpg",
+        "final": "기저세포암",
+        "phase_durations_ms": {
+          "initial_ms": 3415,
+          "ai_ms": 3784,
+          "final_ms": 3424
+        }
+      },
+      {
+        "initial": "혈관 병변",
+        "correctCategory": "흑색종",
+        "aiCategory": "흑색종",
+        "aiCorrect": true,
+        "imageUrl": "/static/task-images/%ED%9D%91%EC%83%89%EC%A2%85(MEL)/ISIC_1074795.jpg",
+        "final": "혈관 병변",
+        "phase_durations_ms": {
+          "initial_ms": 3379,
+          "ai_ms": 4288,
+          "final_ms": 3976
+        }
+      },
+      {
+        "initial": "멜라닌세포성 모반",
+        "correctCategory": "피부섬유종",
+        "aiCategory": "피부섬유종",
+        "aiCorrect": true,
+        "imageUrl": "/static/task-images/%ED%94%BC%EB%B6%80%EC%84%AC%EC%9C%A0%EC%A2%85(DF)/ISIC_6943256.jpg",
+        "final": "피부섬유종",
+        "phase_durations_ms": {
+          "initial_ms": 4208,
+          "ai_ms": 3527,
+          "final_ms": 3407
+        }
+      },
+      {
+        "initial": "멜라닌세포성 모반",
+        "correctCategory": "멜라닌세포성 모반",
+        "aiCategory": "흑색종",
+        "aiCorrect": false,
+        "imageUrl": "/static/task-images/%EB%A9%9C%EB%9D%BC%EB%8B%8C%EC%84%B8%ED%8F%AC%EC%84%B1%20%EB%AA%A8%EB%B0%98(NV)/ISIC_0125513.jpg",
+        "final": "흑색종",
+        "phase_durations_ms": {
+          "initial_ms": 3850,
+          "ai_ms": 3448,
+          "final_ms": 4681
+        }
+      },
+      {
+        "initial": "광선각화증",
+        "correctCategory": "광선각화증",
+        "aiCategory": "광선각화증",
+        "aiCorrect": true,
+        "imageUrl": "/static/task-images/%EA%B4%91%EC%84%A0%EA%B0%81%ED%99%94%EC%A6%9D(AK)/ISIC_0970615.jpg",
+        "final": "광선각화증",
+        "phase_durations_ms": {
+          "initial_ms": 5617,
+          "ai_ms": 3359,
+          "final_ms": 3376
+        }
+      },
+      {
+        "initial": "멜라닌세포성 모반",
+        "correctCategory": "멜라닌세포성 모반",
+        "aiCategory": "흑색종",
+        "aiCorrect": false,
+        "imageUrl": "/static/task-images/%EB%A9%9C%EB%9D%BC%EB%8B%8C%EC%84%B8%ED%8F%AC%EC%84%B1%20%EB%AA%A8%EB%B0%98(NV)/ISIC_0179367.jpg",
+        "final": "흑색종",
+        "phase_durations_ms": {
+          "initial_ms": 5952,
+          "ai_ms": 3577,
+          "final_ms": 3601
+        }
+      },
+      {
+        "initial": "흑색종",
+        "correctCategory": "흑색종",
+        "aiCategory": "흑색종",
+        "aiCorrect": true,
+        "imageUrl": "/static/task-images/%ED%9D%91%EC%83%89%EC%A2%85(MEL)/ISIC_0529633.jpg",
+        "final": "흑색종",
+        "phase_durations_ms": {
+          "initial_ms": 3687,
+          "ai_ms": 3423,
+          "final_ms": 3655
+        }
+      },
+      {
+        "initial": "기저세포암",
+        "correctCategory": "기저세포암",
+        "aiCategory": "기저세포암",
+        "aiCorrect": true,
+        "imageUrl": "/static/task-images/%EA%B8%B0%EC%A0%80%EC%84%B8%ED%8F%AC%EC%95%94(BCC)/ISIC_0962183.jpg",
+        "final": "기저세포암",
+        "phase_durations_ms": {
+          "initial_ms": 5431,
+          "ai_ms": 3529,
+          "final_ms": 3350
+        }
+      },
+      {
+        "initial": "피부섬유종",
+        "correctCategory": "멜라닌세포성 모반",
+        "aiCategory": "광선각화증",
+        "aiCorrect": false,
+        "imageUrl": "/static/task-images/%EB%A9%9C%EB%9D%BC%EB%8B%8C%EC%84%B8%ED%8F%AC%EC%84%B1%20%EB%AA%A8%EB%B0%98(NV)/ISIC_0356038.jpg",
+        "final": "광선각화증",
+        "phase_durations_ms": {
+          "initial_ms": 6655,
+          "ai_ms": 3761,
+          "final_ms": 7815
+        }
+      },
+      {
+        "initial": "혈관 병변",
+        "correctCategory": "혈관 병변",
+        "aiCategory": "혈관 병변",
+        "aiCorrect": true,
+        "imageUrl": "/static/task-images/%ED%98%88%EA%B4%80%20%EB%B3%91%EB%B3%80(VASC)/ISIC_6192197.jpg",
+        "final": "혈관 병변",
+        "phase_durations_ms": {
+          "initial_ms": 3342,
+          "ai_ms": 3521,
+          "final_ms": 3448
+        }
+      },
+      {
+        "initial": "흑색종",
+        "correctCategory": "흑색종",
+        "aiCategory": "흑색종",
+        "aiCorrect": true,
+        "imageUrl": "/static/task-images/%ED%9D%91%EC%83%89%EC%A2%85(MEL)/ISIC_0410802.jpg",
+        "final": "흑색종",
+        "phase_durations_ms": {
+          "initial_ms": 5008,
+          "ai_ms": 3526,
+          "final_ms": 3400
+        }
+      },
+      {
+        "initial": "광선각화증",
+        "correctCategory": "광선각화증",
+        "aiCategory": "광선각화증",
+        "aiCorrect": true,
+        "imageUrl": "/static/task-images/%EA%B4%91%EC%84%A0%EA%B0%81%ED%99%94%EC%A6%9D(AK)/ISIC_1115156.jpg",
+        "final": "광선각화증",
+        "phase_durations_ms": {
+          "initial_ms": 3462,
+          "ai_ms": 3409,
+          "final_ms": 3392
+        }
+      },
+      {
+        "initial": "광선각화증",
+        "correctCategory": "피부섬유종",
+        "aiCategory": "기저세포암",
+        "aiCorrect": false,
+        "imageUrl": "/static/task-images/%ED%94%BC%EB%B6%80%EC%84%AC%EC%9C%A0%EC%A2%85(DF)/ISIC_6043617.jpg",
+        "final": "광선각화증",
+        "phase_durations_ms": {
+          "initial_ms": 6733,
+          "ai_ms": 4349,
+          "final_ms": 3775
+        }
+      },
+      {
+        "initial": "흑색종",
+        "correctCategory": "멜라닌세포성 모반",
+        "aiCategory": "멜라닌세포성 모반",
+        "aiCorrect": true,
+        "imageUrl": "/static/task-images/%EB%A9%9C%EB%9D%BC%EB%8B%8C%EC%84%B8%ED%8F%AC%EC%84%B1%20%EB%AA%A8%EB%B0%98(NV)/ISIC_0174869.jpg",
+        "final": "멜라닌세포성 모반",
+        "phase_durations_ms": {
+          "initial_ms": 3406,
+          "ai_ms": 3854,
+          "final_ms": 3399
+        }
+      },
+      {
+        "initial": "광선각화증",
+        "correctCategory": "광선각화증",
+        "aiCategory": "광선각화증",
+        "aiCorrect": true,
+        "imageUrl": "/static/task-images/%EA%B4%91%EC%84%A0%EA%B0%81%ED%99%94%EC%A6%9D(AK)/ISIC_1119486.jpg",
+        "final": "광선각화증",
+        "phase_durations_ms": {
+          "initial_ms": 3393,
+          "ai_ms": 3399,
+          "final_ms": 3407
+        }
+      },
+      {
+        "initial": "혈관 병변",
+        "correctCategory": "혈관 병변",
+        "aiCategory": "혈관 병변",
+        "aiCorrect": true,
+        "imageUrl": "/static/task-images/%ED%98%88%EA%B4%80%20%EB%B3%91%EB%B3%80(VASC)/ISIC_8020470.jpg",
+        "final": "혈관 병변",
+        "phase_durations_ms": {
+          "initial_ms": 3445,
+          "ai_ms": 3376,
+          "final_ms": 3413
+        }
+      },
+      {
+        "initial": "피부섬유종",
+        "correctCategory": "피부섬유종",
+        "aiCategory": "기저세포암",
+        "aiCorrect": false,
+        "imageUrl": "/static/task-images/%ED%94%BC%EB%B6%80%EC%84%AC%EC%9C%A0%EC%A2%85(DF)/ISIC_6312345.jpg",
+        "final": "기저세포암",
+        "phase_durations_ms": {
+          "initial_ms": 4223,
+          "ai_ms": 3887,
+          "final_ms": 8014
+        }
+      },
+      {
+        "initial": "기저세포암",
+        "correctCategory": "기저세포암",
+        "aiCategory": "기저세포암",
+        "aiCorrect": true,
+        "imageUrl": "/static/task-images/%EA%B8%B0%EC%A0%80%EC%84%B8%ED%8F%AC%EC%95%94(BCC)/ISIC_0382621.jpg",
+        "final": "기저세포암",
+        "phase_durations_ms": {
+          "initial_ms": 3388,
+          "ai_ms": 3623,
+          "final_ms": 3976
+        }
+      },
+      {
+        "initial": "혈관 병변",
+        "correctCategory": "혈관 병변",
+        "aiCategory": "혈관 병변",
+        "aiCorrect": true,
+        "imageUrl": "/static/task-images/%ED%98%88%EA%B4%80%20%EB%B3%91%EB%B3%80(VASC)/ISIC_8190843.jpg",
+        "final": "혈관 병변",
+        "phase_durations_ms": {
+          "initial_ms": 3542,
+          "ai_ms": 3551,
+          "final_ms": 3510
+        }
+      },
+      {
+        "initial": "흑색종",
+        "correctCategory": "멜라닌세포성 모반",
+        "aiCategory": "피부섬유종",
+        "aiCorrect": false,
+        "imageUrl": "/static/task-images/%EB%A9%9C%EB%9D%BC%EB%8B%8C%EC%84%B8%ED%8F%AC%EC%84%B1%20%EB%AA%A8%EB%B0%98(NV)/ISIC_0216815.jpg",
+        "final": "피부섬유종",
+        "phase_durations_ms": {
+          "initial_ms": 5077,
+          "ai_ms": 3696,
+          "final_ms": 3398
+        }
+      },
+      {
+        "initial": "혈관 병변",
+        "correctCategory": "혈관 병변",
+        "aiCategory": "혈관 병변",
+        "aiCorrect": true,
+        "imageUrl": "/static/task-images/%ED%98%88%EA%B4%80%20%EB%B3%91%EB%B3%80(VASC)/ISIC_6141128.jpg",
+        "final": "혈관 병변",
+        "phase_durations_ms": {
+          "initial_ms": 3654,
+          "ai_ms": 3343,
+          "final_ms": 3396
+        }
+      },
+      {
+        "initial": "기저세포암",
+        "correctCategory": "기저세포암",
+        "aiCategory": "기저세포암",
+        "aiCorrect": true,
+        "imageUrl": "/static/task-images/%EA%B8%B0%EC%A0%80%EC%84%B8%ED%8F%AC%EC%95%94(BCC)/ISIC_1217127.jpg",
+        "final": "기저세포암",
+        "phase_durations_ms": {
+          "initial_ms": 5093,
+          "ai_ms": 3415,
+          "final_ms": 3350
+        }
+      },
+      {
+        "initial": "멜라닌세포성 모반",
+        "correctCategory": "멜라닌세포성 모반",
+        "aiCategory": "흑색종",
+        "aiCorrect": false,
+        "imageUrl": "/static/task-images/%EB%A9%9C%EB%9D%BC%EB%8B%8C%EC%84%B8%ED%8F%AC%EC%84%B1%20%EB%AA%A8%EB%B0%98(NV)/ISIC_0167803.jpg",
+        "final": "흑색종",
+        "phase_durations_ms": {
+          "initial_ms": 4956,
+          "ai_ms": 3848,
+          "final_ms": 4071
+        }
+      },
+      {
+        "initial": "광선각화증",
+        "correctCategory": "광선각화증",
+        "aiCategory": "광선각화증",
+        "aiCorrect": true,
+        "imageUrl": "/static/task-images/%EA%B4%91%EC%84%A0%EA%B0%81%ED%99%94%EC%A6%9D(AK)/ISIC_0723926.jpg",
+        "final": "광선각화증",
+        "phase_durations_ms": {
+          "initial_ms": 3622,
+          "ai_ms": 3815,
+          "final_ms": 4873
+        }
+      },
+      {
+        "initial": "혈관 병변",
+        "correctCategory": "혈관 병변",
+        "aiCategory": "혈관 병변",
+        "aiCorrect": true,
+        "imageUrl": "/static/task-images/%ED%98%88%EA%B4%80%20%EB%B3%91%EB%B3%80(VASC)/ISIC_7134919.jpg",
+        "final": "혈관 병변",
+        "phase_durations_ms": {
+          "initial_ms": 3574,
+          "ai_ms": 3350,
+          "final_ms": 3461
+        }
+      },
+      {
+        "initial": "흑색종",
+        "correctCategory": "흑색종",
+        "aiCategory": "흑색종",
+        "aiCorrect": true,
+        "imageUrl": "/static/task-images/%ED%9D%91%EC%83%89%EC%A2%85(MEL)/ISIC_0406149.jpg",
+        "final": "흑색종",
+        "phase_durations_ms": {
+          "initial_ms": 4526,
+          "ai_ms": 3869,
+          "final_ms": 3398
+        }
+      },
+      {
+        "initial": "피부섬유종",
+        "correctCategory": "기저세포암",
+        "aiCategory": "기저세포암",
+        "aiCorrect": true,
+        "imageUrl": "/static/task-images/%EA%B8%B0%EC%A0%80%EC%84%B8%ED%8F%AC%EC%95%94(BCC)/ISIC_0913648.jpg",
+        "final": "피부섬유종",
+        "phase_durations_ms": {
+          "initial_ms": 4789,
+          "ai_ms": 3454,
+          "final_ms": 4142
+        }
+      },
+      {
+        "initial": "멜라닌세포성 모반",
+        "correctCategory": "혈관 병변",
+        "aiCategory": "혈관 병변",
+        "aiCorrect": true,
+        "imageUrl": "/static/task-images/%ED%98%88%EA%B4%80%20%EB%B3%91%EB%B3%80(VASC)/ISIC_8462138.jpg",
+        "final": "멜라닌세포성 모반",
+        "phase_durations_ms": {
+          "initial_ms": 3502,
+          "ai_ms": 3990,
+          "final_ms": 4326
+        }
+      },
+      {
+        "initial": "흑색종",
+        "correctCategory": "흑색종",
+        "aiCategory": "흑색종",
+        "aiCorrect": true,
+        "imageUrl": "/static/task-images/%ED%9D%91%EC%83%89%EC%A2%85(MEL)/ISIC_0414164.jpg",
+        "final": "흑색종",
+        "phase_durations_ms": {
+          "initial_ms": 4261,
+          "ai_ms": 3382,
+          "final_ms": 3463
+        }
+      },
+      {
+        "initial": "피부섬유종",
+        "correctCategory": "피부섬유종",
+        "aiCategory": "피부섬유종",
+        "aiCorrect": true,
+        "imageUrl": "/static/task-images/%ED%94%BC%EB%B6%80%EC%84%AC%EC%9C%A0%EC%A2%85(DF)/ISIC_5813817.jpg",
+        "final": "피부섬유종",
+        "phase_durations_ms": {
+          "initial_ms": 3531,
+          "ai_ms": 3319,
+          "final_ms": 3382
+        }
+      }
+    ],
+    "__exp_math_answers__": {
+      "answers": [
+        {
+          "q": "39-29",
+          "userAns": 10,
+          "correct": true
+        },
+        {
+          "q": "88-66",
+          "userAns": 22,
+          "correct": true
+        },
+        {
+          "q": "63-37",
+          "userAns": 26,
+          "correct": true
+        },
+        {
+          "q": "92-70",
+          "userAns": 22,
+          "correct": true
+        },
+        {
+          "q": "51-30",
+          "userAns": 21,
+          "correct": true
+        },
+        {
+          "q": "82+17",
+          "userAns": 99,
+          "correct": true
+        },
+        {
+          "q": "21+57",
+          "userAns": 78,
+          "correct": true
+        },
+        {
+          "q": "71-25",
+          "userAns": 46,
+          "correct": true
+        },
+        {
+          "q": "16+40",
+          "userAns": 56,
+          "correct": true
+        },
+        {
+          "q": "37+39",
+          "userAns": 76,
+          "correct": true
+        },
+        {
+          "q": "58+29",
+          "userAns": 87,
+          "correct": true
+        },
+        {
+          "q": "13+25",
+          "userAns": 38,
+          "correct": true
+        },
+        {
+          "q": "20+14",
+          "userAns": 34,
+          "correct": true
+        },
+        {
+          "q": "33-23",
+          "userAns": 10,
+          "correct": true
+        },
+        {
+          "q": "30+57",
+          "userAns": 87,
+          "correct": true
+        },
+        {
+          "q": "19+26",
+          "userAns": 45,
+          "correct": true
+        },
+        {
+          "q": "28+23",
+          "userAns": 51,
+          "correct": true
+        },
+        {
+          "q": "34-21",
+          "userAns": 13,
+          "correct": true
+        },
+        {
+          "q": "38+16",
+          "userAns": 54,
+          "correct": true
+        },
+        {
+          "q": "90-46",
+          "userAns": 44,
+          "correct": true
+        },
+        {
+          "q": "93-42",
+          "userAns": 51,
+          "correct": true
+        },
+        {
+          "q": "95-83",
+          "userAns": 12,
+          "correct": true
+        },
+        {
+          "q": "19+21",
+          "userAns": 40,
+          "correct": true
+        },
+        {
+          "q": "37+51",
+          "userAns": 88,
+          "correct": true
+        },
+        {
+          "q": "36+30",
+          "userAns": 66,
+          "correct": true
+        },
+        {
+          "q": "24+53",
+          "userAns": 77,
+          "correct": true
+        },
+        {
+          "q": "14+13",
+          "userAns": 27,
+          "correct": true
+        },
+        {
+          "q": "98-22",
+          "userAns": 76,
+          "correct": true
+        },
+        {
+          "q": "65-41",
+          "userAns": 24,
+          "correct": true
+        },
+        {
+          "q": "98-81",
+          "userAns": 17,
+          "correct": true
+        },
+        {
+          "q": "54+18",
+          "userAns": 72,
+          "correct": true
+        },
+        {
+          "q": "82-56",
+          "userAns": 26,
+          "correct": true
+        },
+        {
+          "q": "41+29",
+          "userAns": 70,
+          "correct": true
+        },
+        {
+          "q": "78-48",
+          "userAns": 30,
+          "correct": true
+        },
+        {
+          "q": "43+50",
+          "userAns": 93,
+          "correct": true
+        },
+        {
+          "q": "73-55",
+          "userAns": 18,
+          "correct": true
+        },
+        {
+          "q": "10+13",
+          "userAns": 23,
+          "correct": true
+        },
+        {
+          "q": "59-43",
+          "userAns": 16,
+          "correct": true
+        },
+        {
+          "q": "64-33",
+          "userAns": 31,
+          "correct": true
+        },
+        {
+          "q": "90-54",
+          "userAns": 36,
+          "correct": true
+        },
+        {
+          "q": "47+10",
+          "userAns": 57,
+          "correct": true
+        }
+      ],
+      "score": 41,
+      "duration_ms": 180004
+    },
+    "__exp_exam_answers__": [
+      {
+        "url": "/static/exam-images/%ED%98%88%EA%B4%80%20%EB%B3%91%EB%B3%80(VASC)/ISIC_8600102.jpg",
+        "correctCategory": "혈관 병변",
+        "chosen": "혈관 병변",
+        "duration_ms": 2064
+      },
+      {
+        "url": "/static/exam-images/%ED%94%BC%EB%B6%80%EC%84%AC%EC%9C%A0%EC%A2%85(DF)/ISIC_8981897.jpg",
+        "correctCategory": "피부섬유종",
+        "chosen": "피부섬유종",
+        "duration_ms": 2451
+      },
+      {
+        "url": "/static/exam-images/%EA%B4%91%EC%84%A0%EA%B0%81%ED%99%94%EC%A6%9D(AK)/ISIC_3004699.jpg",
+        "correctCategory": "광선각화증",
+        "chosen": "광선각화증",
+        "duration_ms": 4659
+      },
+      {
+        "url": "/static/exam-images/%ED%98%88%EA%B4%80%20%EB%B3%91%EB%B3%80(VASC)/ISIC_8791057.jpg",
+        "correctCategory": "혈관 병변",
+        "chosen": "혈관 병변",
+        "duration_ms": 3912
+      },
+      {
+        "url": "/static/exam-images/%EB%A9%9C%EB%9D%BC%EB%8B%8C%EC%84%B8%ED%8F%AC%EC%84%B1%20%EB%AA%A8%EB%B0%98(NV)/ISIC_0422017.jpg",
+        "correctCategory": "멜라닌세포성 모반",
+        "chosen": "흑색종",
+        "duration_ms": 6306
+      },
+      {
+        "url": "/static/exam-images/%ED%9D%91%EC%83%89%EC%A2%85(MEL)/ISIC_1264034.jpg",
+        "correctCategory": "흑색종",
+        "chosen": "흑색종",
+        "duration_ms": 1607
+      },
+      {
+        "url": "/static/exam-images/%EA%B4%91%EC%84%A0%EA%B0%81%ED%99%94%EC%A6%9D(AK)/ISIC_3009842.jpg",
+        "correctCategory": "광선각화증",
+        "chosen": "혈관 병변",
+        "duration_ms": 9993
+      },
+      {
+        "url": "/static/exam-images/%EA%B8%B0%EC%A0%80%EC%84%B8%ED%8F%AC%EC%95%94(BCC)/ISIC_1484722.jpg",
+        "correctCategory": "기저세포암",
+        "chosen": "피부섬유종",
+        "duration_ms": 3865
+      },
+      {
+        "url": "/static/exam-images/%EB%A9%9C%EB%9D%BC%EB%8B%8C%EC%84%B8%ED%8F%AC%EC%84%B1%20%EB%AA%A8%EB%B0%98(NV)/ISIC_0769255.jpg",
+        "correctCategory": "멜라닌세포성 모반",
+        "chosen": "멜라닌세포성 모반",
+        "duration_ms": 3143
+      },
+      {
+        "url": "/static/exam-images/%ED%94%BC%EB%B6%80%EC%84%AC%EC%9C%A0%EC%A2%85(DF)/ISIC_8705648.jpg",
+        "correctCategory": "피부섬유종",
+        "chosen": "피부섬유종",
+        "duration_ms": 4051
+      },
+      {
+        "url": "/static/exam-images/%ED%98%88%EA%B4%80%20%EB%B3%91%EB%B3%80(VASC)/ISIC_9504198.jpg",
+        "correctCategory": "혈관 병변",
+        "chosen": "기저세포암",
+        "duration_ms": 1811
+      },
+      {
+        "url": "/static/exam-images/%EA%B8%B0%EC%A0%80%EC%84%B8%ED%8F%AC%EC%95%94(BCC)/ISIC_2232926.jpg",
+        "correctCategory": "기저세포암",
+        "chosen": "피부섬유종",
+        "duration_ms": 2037
+      },
+      {
+        "url": "/static/exam-images/%EB%A9%9C%EB%9D%BC%EB%8B%8C%EC%84%B8%ED%8F%AC%EC%84%B1%20%EB%AA%A8%EB%B0%98(NV)/ISIC_0597607.jpg",
+        "correctCategory": "멜라닌세포성 모반",
+        "chosen": "멜라닌세포성 모반",
+        "duration_ms": 4361
+      },
+      {
+        "url": "/static/exam-images/%EA%B4%91%EC%84%A0%EA%B0%81%ED%99%94%EC%A6%9D(AK)/ISIC_3532225.jpg",
+        "correctCategory": "광선각화증",
+        "chosen": "기저세포암",
+        "duration_ms": 2678
+      },
+      {
+        "url": "/static/exam-images/%EA%B8%B0%EC%A0%80%EC%84%B8%ED%8F%AC%EC%95%94(BCC)/ISIC_2231864.jpg",
+        "correctCategory": "기저세포암",
+        "chosen": "기저세포암",
+        "duration_ms": 2568
+      },
+      {
+        "url": "/static/exam-images/%ED%9D%91%EC%83%89%EC%A2%85(MEL)/ISIC_3642584.jpg",
+        "correctCategory": "흑색종",
+        "chosen": "흑색종",
+        "duration_ms": 1710
+      },
+      {
+        "url": "/static/exam-images/%ED%98%88%EA%B4%80%20%EB%B3%91%EB%B3%80(VASC)/ISIC_8614567.jpg",
+        "correctCategory": "혈관 병변",
+        "chosen": "혈관 병변",
+        "duration_ms": 1556
+      },
+      {
+        "url": "/static/exam-images/%ED%94%BC%EB%B6%80%EC%84%AC%EC%9C%A0%EC%A2%85(DF)/ISIC_7009788.jpg",
+        "correctCategory": "피부섬유종",
+        "chosen": "피부섬유종",
+        "duration_ms": 2125
+      },
+      {
+        "url": "/static/exam-images/%EA%B4%91%EC%84%A0%EA%B0%81%ED%99%94%EC%A6%9D(AK)/ISIC_3531459.jpg",
+        "correctCategory": "광선각화증",
+        "chosen": "광선각화증",
+        "duration_ms": 1907
+      },
+      {
+        "url": "/static/exam-images/%ED%9D%91%EC%83%89%EC%A2%85(MEL)/ISIC_4563142.jpg",
+        "correctCategory": "흑색종",
+        "chosen": "흑색종",
+        "duration_ms": 2424
+      },
+      {
+        "url": "/static/exam-images/%ED%9D%91%EC%83%89%EC%A2%85(MEL)/ISIC_1285798.jpg",
+        "correctCategory": "흑색종",
+        "chosen": "흑색종",
+        "duration_ms": 2721
+      },
+      {
+        "url": "/static/exam-images/%EB%A9%9C%EB%9D%BC%EB%8B%8C%EC%84%B8%ED%8F%AC%EC%84%B1%20%EB%AA%A8%EB%B0%98(NV)/ISIC_0767613.jpg",
+        "correctCategory": "멜라닌세포성 모반",
+        "chosen": "멜라닌세포성 모반",
+        "duration_ms": 3308
+      },
+      {
+        "url": "/static/exam-images/%EA%B8%B0%EC%A0%80%EC%84%B8%ED%8F%AC%EC%95%94(BCC)/ISIC_1464471.jpg",
+        "correctCategory": "기저세포암",
+        "chosen": "기저세포암",
+        "duration_ms": 5503
+      },
+      {
+        "url": "/static/exam-images/%ED%94%BC%EB%B6%80%EC%84%AC%EC%9C%A0%EC%A2%85(DF)/ISIC_7454975.jpg",
+        "correctCategory": "피부섬유종",
+        "chosen": "기저세포암",
+        "duration_ms": 3722
+      }
+    ],
+    "__exp_task_conf__": 65,
+    "__exp_self_conf__": 50,
+    "__exp_task_phase_dur__": [
+      {
+        "initial_ms": 9431,
+        "ai_ms": 5209,
+        "final_ms": 3896
+      },
+      {
+        "initial_ms": 3674,
+        "ai_ms": 3560,
+        "final_ms": 3665
+      },
+      {
+        "initial_ms": 5562,
+        "ai_ms": 8960,
+        "final_ms": 3411
+      },
+      {
+        "initial_ms": 5730,
+        "ai_ms": 3424,
+        "final_ms": 3353
+      },
+      {
+        "initial_ms": 4010,
+        "ai_ms": 4043,
+        "final_ms": 3392
+      },
+      {
+        "initial_ms": 6305,
+        "ai_ms": 5837,
+        "final_ms": 4745
+      },
+      {
+        "initial_ms": 3415,
+        "ai_ms": 3784,
+        "final_ms": 3424
+      },
+      {
+        "initial_ms": 3379,
+        "ai_ms": 4288,
+        "final_ms": 3976
+      },
+      {
+        "initial_ms": 4208,
+        "ai_ms": 3527,
+        "final_ms": 3407
+      },
+      {
+        "initial_ms": 3850,
+        "ai_ms": 3448,
+        "final_ms": 4681
+      },
+      {
+        "initial_ms": 5617,
+        "ai_ms": 3359,
+        "final_ms": 3376
+      },
+      {
+        "initial_ms": 5952,
+        "ai_ms": 3577,
+        "final_ms": 3601
+      },
+      {
+        "initial_ms": 3687,
+        "ai_ms": 3423,
+        "final_ms": 3655
+      },
+      {
+        "initial_ms": 5431,
+        "ai_ms": 3529,
+        "final_ms": 3350
+      },
+      {
+        "initial_ms": 6655,
+        "ai_ms": 3761,
+        "final_ms": 7815
+      },
+      {
+        "initial_ms": 3342,
+        "ai_ms": 3521,
+        "final_ms": 3448
+      },
+      {
+        "initial_ms": 5008,
+        "ai_ms": 3526,
+        "final_ms": 3400
+      },
+      {
+        "initial_ms": 3462,
+        "ai_ms": 3409,
+        "final_ms": 3392
+      },
+      {
+        "initial_ms": 6733,
+        "ai_ms": 4349,
+        "final_ms": 3775
+      },
+      {
+        "initial_ms": 3406,
+        "ai_ms": 3854,
+        "final_ms": 3399
+      },
+      {
+        "initial_ms": 3393,
+        "ai_ms": 3399,
+        "final_ms": 3407
+      },
+      {
+        "initial_ms": 3445,
+        "ai_ms": 3376,
+        "final_ms": 3413
+      },
+      {
+        "initial_ms": 4223,
+        "ai_ms": 3887,
+        "final_ms": 8014
+      },
+      {
+        "initial_ms": 3388,
+        "ai_ms": 3623,
+        "final_ms": 3976
+      },
+      {
+        "initial_ms": 3542,
+        "ai_ms": 3551,
+        "final_ms": 3510
+      },
+      {
+        "initial_ms": 5077,
+        "ai_ms": 3696,
+        "final_ms": 3398
+      },
+      {
+        "initial_ms": 3654,
+        "ai_ms": 3343,
+        "final_ms": 3396
+      },
+      {
+        "initial_ms": 5093,
+        "ai_ms": 3415,
+        "final_ms": 3350
+      },
+      {
+        "initial_ms": 4956,
+        "ai_ms": 3848,
+        "final_ms": 4071
+      },
+      {
+        "initial_ms": 3622,
+        "ai_ms": 3815,
+        "final_ms": 4873
+      },
+      {
+        "initial_ms": 3574,
+        "ai_ms": 3350,
+        "final_ms": 3461
+      },
+      {
+        "initial_ms": 4526,
+        "ai_ms": 3869,
+        "final_ms": 3398
+      },
+      {
+        "initial_ms": 4789,
+        "ai_ms": 3454,
+        "final_ms": 4142
+      },
+      {
+        "initial_ms": 3502,
+        "ai_ms": 3990,
+        "final_ms": 4326
+      },
+      {
+        "initial_ms": 4261,
+        "ai_ms": 3382,
+        "final_ms": 3463
+      },
+      {
+        "initial_ms": 3531,
+        "ai_ms": 3319,
+        "final_ms": 3382
+      }
+    ]
+  }
+}
