@@ -8,6 +8,6 @@
   ],
   "assets": {
     "directory": "./dist",
-    "run_worker_first": false
+    "run_worker_first": true
   }
 }
