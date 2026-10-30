@@ -285,11 +285,8 @@ app.post('/api/submit', async (c) => {
       )
 
       if (!ghRes.ok) {
-        const detail = await ghRes.text()
-        console.error('[SUBMIT] GitHub API error:', detail)
-        // GitHub 저장 실패해도 콘솔에 전체 데이터 출력 후 성공 반환 (참가자 차단 방지)
-        console.log('[SUBMIT][FALLBACK]', JSON.stringify(payload, null, 2))
-        return c.json({ status: 'ok', saved: 'console_fallback', github_error: detail })
+        console.error('[SUBMIT] GitHub API error:', ghRes.status, await ghRes.text())
+        return c.json({ error: 'github_save_failed', code: ghRes.status }, 502)
       }
 
       const result = await ghRes.json() as { content: { path: string } }
@@ -297,15 +294,13 @@ app.post('/api/submit', async (c) => {
 
     } catch (err) {
       console.error('[SUBMIT] upstream error:', err)
-      // 네트워크 오류도 콘솔 폴백 후 성공 반환
-      console.log('[SUBMIT][FALLBACK]', JSON.stringify(payload, null, 2))
-      return c.json({ status: 'ok', saved: 'console_fallback', upstream_error: String(err) })
+      return c.json({ error: 'github_unavailable' }, 502)
     }
   }
 
-  // GitHub 미설정 시 → 콘솔 출력 후 성공 반환
-  console.log('[SUBMIT]', JSON.stringify(payload, null, 2))
-  return c.json({ status: 'ok', saved: 'console' })
+  // Never report successful submission until GitHub has persisted the response.
+  console.error('[SUBMIT] Missing GitHub environment bindings')
+  return c.json({ error: 'github_not_configured' }, 503)
 })
 
 // ─────────────────────────────────────────────────────────────
