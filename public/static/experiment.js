@@ -1539,7 +1539,7 @@
         body:    JSON.stringify({ participant_id: pid, responses })
       })
       const data = await res.json()
-      if (!res.ok || data.error) throw new Error(data.error ?? `HTTP ${res.status}`)
+      if (!res.ok || data.error || data.saved !== 'github') throw new Error(data.error ?? 'github_save_not_confirmed')
       sessionStorage.setItem(KEY_DONE, '1')
       showStep('step-done')
     } catch (err) {
